@@ -17,13 +17,13 @@ export default function Landing() {
                 How It Works
               </a>
               <a
-                href="#"
+                href="/signin"
                 className="bg-primary text-white px-4 py-2 rounded-md hover:bg-opacity-90"
               >
                 Sign In
               </a>
               <a
-                href="#"
+                href="/signup"
                 className="text-primary border border-primary px-4 py-2 rounded-md hover:bg-primary hover:text-white"
               >
                 Sign Up
@@ -64,13 +64,13 @@ export default function Landing() {
           </a>
           <div className="flex space-x-4 py-2">
             <a
-              href="#"
+              href="/signin"
               className="bg-primary text-white px-4 py-2 rounded-md text-sm hover:bg-opacity-90"
             >
               Sign In
             </a>
             <a
-              href="#"
+              href="/signup"
               className="text-primary border border-primary px-4 py-2 rounded-md text-sm hover:bg-primary hover:text-white"
             >
               Sign Up
@@ -92,7 +92,7 @@ export default function Landing() {
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a
-                href="#"
+                href="/chat"
                 className="bg-primary text-white text-center px-6 py-3 rounded-md hover:bg-opacity-90"
               >
                 Get Started Free
@@ -300,7 +300,7 @@ export default function Landing() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a
-              href="#"
+              href="/chat"
               className="bg-white text-primary px-6 py-3 rounded-md font-medium hover:bg-opacity-90"
             >
               Get Started Free
