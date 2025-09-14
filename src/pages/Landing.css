@@ -1,0 +1,19 @@
+
+  body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(120deg, #4F46E5, #10B981);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .upload-area {
+            border: 2px dashed #D1D5DB;
+            transition: all 0.3s ease;
+        }
+        .upload-area:hover {
+            border-color: #4F46E5;
+        }
